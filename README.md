@@ -4,11 +4,23 @@
 
 > Course Outlines 
 
-**Notes**
-
 | Title | Link |
 |--|--|
 | Introduction | [Click]() |
+| DVWA Labs Installation | [Click]() |
+| Bruteforce Attack | [Click]() |
+| Command Injection | [Click]() |
+| Cross Site Request Forgery | [Click]() |
+| File Inclusion | [Click]() |
+| SQL Injection | [Click]() |
+| Cross Site Scripting | [Click]() |
+| PHP Code Injection | [Click]() |
+| Host Header Injection | [Click]() |
+| Remote Code Execution | [Click]() |
+| Arrbitrary File Upload | [Click]() |
+| DDOS/Dos | [Click]() |
+| Cpanal Hacking | [Click]() |
+
 
 **Video Channel**
 ```
