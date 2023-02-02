@@ -7,7 +7,7 @@
 | Title | Link |
 |--|--|
 | Introduction | [Click]() |
-| DVWA Labs Installation | [Click]() |
+| Labs Installation | [Click]() |
 | Google Dorks(GHDB) | [Click]() |
 | Bruteforce Attack | [Click]() |
 | Command Injection | [Click]() |
