@@ -24,7 +24,7 @@
 
 **Video Channel**
 ```
-https://www.youtube.com/playlist?list=blank
+https://www.youtube.com/playlist?list=PLl9tJseyzT3H9lTW3UgSpJCVCfrJgQ2Z3
 ```
 
 *Free Web Security Course by* [**Yell Phone Naing**](https://www.facebook.com/yellphoen.naing/)
