@@ -8,18 +8,30 @@
 |--|--|
 | Introduction | [Click]() |
 | DVWA Labs Installation | [Click]() |
+| Google Dorks(GHDB) | [Click]() |
 | Bruteforce Attack | [Click]() |
 | Command Injection | [Click]() |
 | Cross Site Request Forgery | [Click]() |
+| Server Side Request Forgery | [Click]() |
+| Cross Original Resource Sharing | [Click]() |
 | File Inclusion | [Click]() |
+| Server Side Inclusion | [Click]() |
 | SQL Injection | [Click]() |
 | Cross Site Scripting | [Click]() |
 | PHP Code Injection | [Click]() |
 | Host Header Injection | [Click]() |
 | Remote Code Execution | [Click]() |
 | Arrbitrary File Upload | [Click]() |
+| Sensitive Data Exposure | [Click]() |
+| Broken Access Control | [Click]() |
+| Security Misconfiguration | [Click]() |
+| Components With Known Vulnerabilities | [Click]() |
+| Maintain Access | [Click]() |
+| Mobile Application Pen-Testing From Web API | [Click]() |
+| Finding Vulnerabilities | [Click]() |
 | DDOS/Dos | [Click]() |
 | Cpanal Hacking | [Click]() |
+| Exploit Development | [Click]() |
 
 
 **Video Channel**
