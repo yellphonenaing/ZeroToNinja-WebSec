@@ -27,5 +27,5 @@
 https://www.youtube.com/playlist?list=blank
 ```
 
-*Free Web Security Course by* [**Yell Phone Naing**](https://www.facebook.com/yell.phoen.naing)
+*Free Web Security Course by* [**Yell Phone Naing**](https://www.facebook.com/yellphoen.naing/)
 
