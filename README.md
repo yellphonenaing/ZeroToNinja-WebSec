@@ -29,7 +29,7 @@
 | Maintain Access | [Click]() |
 | Mobile Application Pen-Testing From Web API | [Click]() |
 | Finding Vulnerabilities | [Click]() |
-| DDOS/Dos | [Click]() |
+| DOS/DDOS | [Click]() |
 | Cpanal Hacking | [Click]() |
 | Exploit Development | [Click]() |
 
