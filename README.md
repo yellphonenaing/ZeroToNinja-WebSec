@@ -3,7 +3,7 @@
 
 
 > Course Outlines 
-<center>
+
 | Title | Link |
 |--|--|
 | Introduction | [Click]() |
@@ -21,7 +21,7 @@
 | DDOS/Dos | [Click]() |
 | Cpanal Hacking | [Click]() |
 
-</center>
+
 **Video Channel**
 ```
 https://www.youtube.com/playlist?list=PLl9tJseyzT3H9lTW3UgSpJCVCfrJgQ2Z3
