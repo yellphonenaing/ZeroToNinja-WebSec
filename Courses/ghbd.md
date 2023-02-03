@@ -66,3 +66,38 @@ Example
 inanchor:Cyber Security
 ```
 > ဒါဆို Cyber Security နဲ့ဆိုင်တဲ့ Articles တွေကျလာမှာပါ။
+
+**| (Single Pipe)**
+> တစ်ချိန်တည်းမှာ စကားလုံး ၂ခုထဲက တစ်ခု မဟုတ်တစ်ခုကို  ရှာချင်တဲ့အခါ အသုံးပြူပါတယ်။
+
+Example
+```
+site:facebook.com intext:Myanmar | Burma
+```
+> ဒါဆို Facebook Web မှာ Myanmar Or Burma ဆိုတဲ့ စကားလုံးပါတဲ့ Link တွေကိုပြပေးမှာပါ။
+
+**-**
+> ဒိဟ ဖြစ်စောသော၊ အဓိပ္ပာယ်၂မျိုး (သို့) နှစ်မျိုးထက်ပိုသော အဓိပ္ပာယ်ရှိသော စကားလုံးများကို Search လုပ်ရာတွင် ဒိဟ မဖြစ်စေရန်အသုံးပြနိုင်ပါတယ်။ ဥပမာ ။	။ orange လို့ပြောလိုက်တာနဲ့ လိမ္မော်သီးလည့်ဖြစ်နိုင်သလို၊ လိမ္မော်ရောင် လည်းဖြစ်နိုင်ပါဝယ်။ ဒါကြောင့် Color ကိုရှာချင်ရင်  orange -fruit ဟုရှာနိုင်ပါတယ်။ လိမ္မော်သီး ကိုရှာချင်ရင် orange -color ဟူ၍ရှာနိုင်ပါတယ်။
+
+## လက်တွေ့အသုံးခြင်း
+
+**For Exploits**
+```
+Dork =>	intext:Powered By appsoftthai.com
+Exploit => https://github.com/T-Tools/appsoft
+```
+
+```
+Dork => intext:copyright © 2022 nemosofts all rights reserved
+Exploit => https://github.com/T-Tools/nemo-exploit
+```
+
+```
+Dork => intext:"Website designed and developed by Five design"
+Exploit => https://github.com/T-Tools/fd-exploit
+```
+
+```
+Dork => filetype:env intext:DB_PASSWORD
+Acion => Search Leaked Database Creds From .env Files
+```
