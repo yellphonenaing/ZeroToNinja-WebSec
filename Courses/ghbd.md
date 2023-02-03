@@ -120,7 +120,7 @@ Action => Search Phone Numbers From Facebook Pages (Magway Region)
 ```
 
 
-***Sensitive Data Exposure**
+**Sensitive Data Exposure**
 
 ```
 Dork => filetype:sql intext:user_pass
