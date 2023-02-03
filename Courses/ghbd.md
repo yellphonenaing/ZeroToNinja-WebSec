@@ -101,3 +101,43 @@ Exploit => https://github.com/T-Tools/fd-exploit
 Dork => filetype:env intext:DB_PASSWORD
 Acion => Search Leaked Database Creds From .env Files
 ```
+
+**For OSINt**
+
+```
+Dork => intext:@gmail.com site:facebook.com inurl:sk=about
+Action => Search Gmail Accounts From Facebook Profiles
+```
+
+```
+Dork => intext:@gmail.com site:facebook.com inurl:about
+Action => Search Gmail Accounts From Facebook Pages
+```
+
+```
+Dork => intext:09 site:facebook.com intext:Magway
+Action => Search Phone Numbers From Facebook Pages (Magway Region)
+```
+
+
+***Sensitive Data Exposure**
+
+```
+Dork => filetype:sql intext:user_pass
+Action => Search SQL Backup File Containing Passwords
+```
+
+```
+Dork => filetype:log intext:password
+Action => Search Log Files Containing Passwords
+```
+
+
+**Reconnaissance**
+
+```
+Dork => site:.facebook.com -site:www.facebook.com
+Action => Search Subdomains Of facebook.com
+```
+
+>အထက်ပါ Examples များအတိုင်း မိမိ ဉာဏ်ရှိသလို အသုံးပြုနိုင်ပါတယ်။
