@@ -15,20 +15,20 @@ sudo systemctl enable docker
 
 **Install DVWA Labs**
 ```
-docker pull vulnerables/web-dvwa
+sudo docker pull vulnerables/web-dvwa
 ```
 
 **Start DVWA Labs**
 ```
-docker run -p 80:80 vulnerables/web-dvwa
+sudo docker run -p 80:80 vulnerables/web-dvwa
 ```
 
 **Install bWAPP**
 ```
-docker pull raesene/bwapp
+sudo docker pull raesene/bwapp
 ```
 
 **Start bWAPP**
 ```
-docker run -d -p 8008:80 raesene/bwapp
+sudo docker run -d -p 8008:80 raesene/bwapp
 ```
