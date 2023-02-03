@@ -8,5 +8,28 @@ Example
 ```
 intext:Hacked By BHG
 ```
+> ဒါဆို Hacked By BHG ဆိုတဲ့  စကားလုံးပါသော Link များကိုထုတ်ပြပေးမှာပါ။
+
+**title**
+> မိမိလိုချင်သော ခေါင်းစဉ်တပ်ထားသော Link,Web Pages များကို Search လုပ်ရာတွင်အသုံးပြုပါတယ်။
+
+Example
+```
+intitle:Myanmar
+```
 > ဒါဆို Title မှာ Myanmar ဆိုတဲ့ စကားလုံးပါနေသော Links,Web Pages များကို ထုတ်ပြပေးမှာပါ။
 
+*site**
+> Site (Or) Multi Sites တွေကို Domain Name အလိုက်ရှာချင်တဲ့အခါမှာ အသုံးပြုပါတယ်။
+
+Example
+```
+site:gov.mm
+```
+> ဒါဆို မြန်မာနိုင်ငံရဲ့ အစိုးရ Site တွေကျလာမှာပါ။
+
+Example
+```
+ site:facebook.com
+```
+> ဒါဆို facebook.com နဲ့ဆိုင်တဲ့ Links တွေကျလာမှာပါ။(Subdomain ရှာရာတွင်လည်းအသုံးဝင်ပါတယ်)
