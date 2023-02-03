@@ -6,7 +6,7 @@
 sudo apt install docker
 sudo apt install docker.io
 ```
-<br>
+
 **Start Docker**
 ```
 sudo systemctl start docker
