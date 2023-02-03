@@ -30,7 +30,7 @@
 | Mobile Application Pen-Testing From Web API | [Click]() |
 | Finding Vulnerabilities | [Click]() |
 | DOS/DDOS | [Click]() |
-| Cpanal Hacking | [Click]() |
+| cPanel Hacking | [Click]() |
 | Exploit Development | [Click]() |
 
 
