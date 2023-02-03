@@ -6,9 +6,9 @@
 
 | Title | Link |
 |--|--|
-| Introduction | [Click]() |
-| Labs Installation | [Click]() |
-| Google Dorks(GHDB) | [Click]() |
+| Introduction | [Click](https://github.com/yellphonenaing/ZeroToNinja-WebSec/blob/main/Courses/introduction.md) |
+| Labs Installation | [Click](https://github.com/yellphonenaing/ZeroToNinja-WebSec/blob/main/Courses/labsinstallation.md) |
+| Google Dorks(GHDB) | [Click](https://github.com/yellphonenaing/ZeroToNinja-WebSec/blob/main/Courses/ghbd.md) |
 | Bruteforce Attack | [Click]() |
 | Command Injection | [Click]() |
 | Cross Site Request Forgery | [Click]() |
