@@ -19,7 +19,7 @@ intitle:Myanmar
 ```
 > ဒါဆို Title မှာ Myanmar ဆိုတဲ့ စကားလုံးပါနေသော Links,Web Pages များကို ထုတ်ပြပေးမှာပါ။
 
-*site**
+**site**
 > Site (Or) Multi Sites တွေကို Domain Name အလိုက်ရှာချင်တဲ့အခါမှာ အသုံးပြုပါတယ်။
 
 Example
@@ -33,3 +33,36 @@ Example
  site:facebook.com
 ```
 > ဒါဆို facebook.com နဲ့ဆိုင်တဲ့ Links တွေကျလာမှာပါ။(Subdomain ရှာရာတွင်လည်းအသုံးဝင်ပါတယ်)
+
+**cache**
+> Site တစ်ခုရဲ့ cache ကိုကြည့်ချင်တဲ့အခါမှာအသုံးပြပါတယ်။
+
+Example
+```
+cache:cyberbullet.xyz
+```
+> ဒါဆို cyberbullet.xyz ရဲ့ cache ကျလာမှာပါ။
+
+**filetype**
+> မိမိရှာလိုသော mp4,mp3,m3u8,pdf,txt,log,php,jsp,asp,env Files များကိုရှာဖွေရာတွင်အသုံးပြုနိုင်ပါတယ်။
+
+Example
+```
+filetype:pdf site:gov.mm
+```
+> ဒါဆို မြန်မာနိုင်ငံအစိုးရ Web တွေမှာတင်ထားတဲ့ PDF Files တွေကျလာမှာပါ။
+
+Example
+```
+filetype:sql intext:password
+```
+> ဒါဆို password ဆိုတဲ့ စကားလုံးပါနေသော sql Files တွေကျလာမှာပါ။
+
+**inanchor**
+> ကိုယ်ဖက်ချင်တဲ့ စကားလုံးပါတဲ့ Articles တွေကို Search လုပ်ရာတွင်အသုံးပြုပါတယ်။
+
+Example
+```
+inanchor:Cyber Security
+```
+> ဒါဆို Cyber Security နဲ့ဆိုင်တဲ့ Articles တွေကျလာမှာပါ။
