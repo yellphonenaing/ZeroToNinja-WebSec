@@ -10,7 +10,7 @@ intext:Hacked By BHG
 ```
 > ဒါဆို Hacked By BHG ဆိုတဲ့  စကားလုံးပါသော Link များကိုထုတ်ပြပေးမှာပါ။
 
-**title**
+**intitle**
 > မိမိလိုချင်သော ခေါင်းစဉ်တပ်ထားသော Link,Web Pages များကို Search လုပ်ရာတွင်အသုံးပြုပါတယ်။
 
 Example
