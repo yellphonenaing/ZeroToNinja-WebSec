@@ -94,6 +94,7 @@ php_value max_execution_time 300
 **PHP Functions**
 ```
 <?php
+ini_set('max_execution_time', 360);
 exec('whoami');
 system('whoami');
 passthru('whoami');
