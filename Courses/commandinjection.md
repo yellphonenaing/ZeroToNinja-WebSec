@@ -98,7 +98,7 @@ ini_set('max_execution_time', 360);
 exec('whoami');
 system('whoami');
 passthru('whoami');
-shell_exec('whoami');
+echo shell_exec('whoami');
 echo `whoami`;
 $handle = popen("/bin/whoami 2>&1", "r");
 $output="";
