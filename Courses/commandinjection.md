@@ -10,7 +10,7 @@
 | && | And |
 | \|\| | Or |
 | \| | Share Output To Second Command |
-
+| * | It can be use as 'all' or  auto complete |
 ```
 ls -lah /tmp
 ```
@@ -21,4 +21,14 @@ ls -lah /tmp
 ```
 echo $(pwd)
 echo `whoami`
+```
+
+# Base64 Encoding/Decoding
+
+```
+echo "yellphonenaing" | base64
+Output => eWVsbHBob25lbmFpbmcK
+
+echo "eWVsbHBob25lbmFpbmcK" | base64 -d
+Output => yellphonenaing
 ```
