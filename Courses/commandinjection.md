@@ -108,6 +108,5 @@ if($handle) {
 }
 else $output = "popen failed";
 echo $output;
-
 ?>
 ```
