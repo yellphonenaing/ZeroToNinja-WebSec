@@ -1,7 +1,7 @@
 ## 1. Command Injection Attack
 
 ![](https://i.ytimg.com/vi/UBWMLFbjPBc/maxresdefault.jpg)
->We will use DVWA Labs To Learn Bruteforce Attacks
+>We will use DVWA Labs To Learn Command Injection Attacks
 
 # Linux Command syntax
 | Character | Action |
