@@ -1,4 +1,4 @@
-## 1. CSRF Attack
+## 1. Cross Site Request Forgery (CSRF)
 
 ![](https://portswigger.net/web-security/images/cross-site%20request%20forgery.svg)
 >We will use DVWA Labs To Learn CSRF Attack
