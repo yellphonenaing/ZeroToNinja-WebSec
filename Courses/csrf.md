@@ -9,7 +9,29 @@
 In a successful CSRF attack, the attacker causes the victim user to carry out an action unintentionally. For example, this might be to change the email address on their account, to change their password, or to make a funds transfer. Depending on the nature of the action, the attacker might be able to gain full control over the user's account. If the compromised user has a privileged role within the application, then the attacker might be able to take full control of all the application's data and functionality. 
 
 **Example URL (GET Method)**
+
 ```
-https://target-vuln-web.com/email/change?email=attacker@anon.net
-https://target-vuln-web.com/user/new_password?password=newpass&comfirm_password=newpass
+http://target-vuln-web.com/email/change?email=attacker@anon.net
+http://target-vuln-web.com/user/new_password?password=newpass&comfirm_password=newpass
+```
+**Example Request (POST Method)**
+
+```
+POST /email/change HTTP/1.1
+Host: target-vuln-web.com
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 30
+Cookie: session=cookievalues
+
+email=attacker@anon.net
+```
+
+```
+POST user/new_password HTTP/1.1
+Host: target-vuln-web.com
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 30
+Cookie: session=cookievalues
+
+password=newpass&comfirm_password=newpass
 ```
