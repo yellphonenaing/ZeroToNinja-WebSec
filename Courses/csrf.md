@@ -93,6 +93,7 @@ HttpRequest.send();
 
 >With token
 ```
+<body onload="change_password()">
  <script>
         function change_password(){
             const request = new XMLHttpRequest();
