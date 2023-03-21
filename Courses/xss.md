@@ -25,5 +25,5 @@ An attacker can use XSS to send a malicious script to an unsuspecting user. The 
 >Call JavaScript Functions in URL
 
 ```
-<a href='javascript:alert("hello");'>Click me</a>
+<a href='javascript:alert("Hello");'>Click me</a>
 ```
