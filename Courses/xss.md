@@ -27,3 +27,35 @@ An attacker can use XSS to send a malicious script to an unsuspecting user. The 
 ```
 <a href='javascript:alert("Hello");'>Click me</a>
 ```
+
+**HTML events that can be used to execute JavaScript**
+
+```
+onAbort
+onBlur
+onChange
+onClick
+onDblClick
+onDragDrop
+onError
+onFocus
+onKeyDown
+onKeyPress
+onKeyUp
+onLoad
+onMouseDown
+onMouseMove
+onMouseOut
+onMouseOver
+onMouseUp
+onMove
+onReset
+onResize
+onSelect
+onSubmit
+onUnload
+onscroll
+onbort
+onmouseleave
+oninput
+```
