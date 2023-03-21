@@ -101,4 +101,5 @@ alert`Hello`
 
 **Tips For XSS**
 
->1. Allow Uploading HTML File Or Unknown File Extensions Lead To XSS in somw browser. Bypass Extensions (html,htm.pngs,jpegs,txts)
+>1. Allow Uploading HTML File Or Unknown File Extensions Lead To XSS in some browser. Bypass Extensions (html,htm.pngs,jpegs,txts)
+>2. အကယ်၍ XSS ေပါက်ေသာေနရာဟာ စကားလံုး Limited ထားရင်ေသာ်လည်းေကာင်း၊ Attack လုပ်နိုင်တဲ့ Function ေတွကို Ban ထားရင်ေသာ်လည်းေကာင်း ေအာက်ပါ Payloads များကိုအသံုးပြပါ။
