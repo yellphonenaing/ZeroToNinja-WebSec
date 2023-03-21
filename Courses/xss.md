@@ -110,6 +110,6 @@ alert`Hello`
 
 **Tips For XSS**
 
->1. Allow Uploading HTML File Or Unknown File Extensions Lead To XSS in some browser. Bypass Extensions (html,htm.pngs,jpegs,txts)
+>1. Allow Uploading HTML File Or Unknown File Extensions Leads To XSS in some browser. Bypass Extensions (html,htm.pngs,jpegs,txts)
 >2. If target web is protected by CloudFlare.Find the real ip of this web and inject xss payloads with host header injection.
->3.We can perform CSRF and CORS attacks with XSS.
+>3.We can perform CSRF and CORS attacks with Any Type Of XSS.
