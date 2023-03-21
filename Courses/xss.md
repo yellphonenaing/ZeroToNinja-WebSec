@@ -101,4 +101,4 @@ alert`Hello`
 
 **Tips For XSS**
 
->1. Allow Uploading HTML File Lead To XSS
+>1. Allow Uploading HTML File Or Unknown File Extensions Lead To XSS in somw browser. Bypass Extensions (html,htm.pngs,jpegs,txts)
