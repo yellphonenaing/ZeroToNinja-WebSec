@@ -8,6 +8,15 @@ Cross-Site Scripting (XSS) attacks are a type of injection, in which malicious s
 
 An attacker can use XSS to send a malicious script to an unsuspecting user. The end user’s browser has no way to know that the script should not be trusted, and will execute the script. Because it thinks the script came from a trusted source, the malicious script can access any cookies, session tokens, or other sensitive information retained by the browser and used with that site. These scripts can even rewrite the content of the HTML page. (Taken From OWASP)
 
+**Four types of XSS**
+```
+1. Reflected XSS
+2. Stored XSS
+3. Dom XSS
+4. Self XSS
+```
+
+
 **Simple 3 Ways to exeecute javascript in browser**
 
 >Using Script Tag
@@ -102,4 +111,5 @@ alert`Hello`
 **Tips For XSS**
 
 >1. Allow Uploading HTML File Or Unknown File Extensions Lead To XSS in some browser. Bypass Extensions (html,htm.pngs,jpegs,txts)
->2. အကယ်၍ XSS ေပါက်ေသာေနရာဟာ စကားလံုး Limited ထားရင်ေသာ်လည်းေကာင်း၊ Attack လုပ်နိုင်တဲ့ Function ေတွကို Ban ထားရင်ေသာ်လည်းေကာင်း ေအာက်ပါ Payloads များကိုအသံုးပြပါ။
+>2. If target web is protected by CloudFlare.Find the real ip of this web and inject xss payloads with host header injection.
+>3.We can perform CSRF and CORS attacks with XSS.
