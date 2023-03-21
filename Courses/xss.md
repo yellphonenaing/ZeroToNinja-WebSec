@@ -98,3 +98,7 @@ echo $name; ?>
 ```
 alert`Hello`
 ```
+
+**Tips For XSS**
+
+>1. Allow Uploading HTML File Lead To XSS
