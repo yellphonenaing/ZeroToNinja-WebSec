@@ -17,7 +17,7 @@ An attacker can use XSS to send a malicious script to an unsuspecting user. The 
 ```
 
 
-**Simple 3 Ways to exeecute javascript in browser**
+**Simple 3 Ways to execute javascript in browser**
 
 >Using Script Tag
 
