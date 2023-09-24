@@ -100,14 +100,14 @@ system('whoami');
 passthru('whoami');
 echo shell_exec('whoami');
 echo `whoami`;
-$handle = popen("/bin/whoami 2>&1", "r");
-$output="";
-if($handle) {
-  while($tmp = fgets($handle))
-      $output .= $tmp;
-  $output .= "\n\nResult = " . pclose($handle);
+$handle = popen("id", "r");
+if (!$handle) {
+    die("Unable to open pipe to command.");
 }
-else $output = "popen failed";
-echo $output;
+while (!feof($handle)) {
+    $output = fgets($handle);
+    echo $output;
+}
+pclose($handle);
 ?>
 ```
